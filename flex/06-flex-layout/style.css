@@ -25,3 +25,35 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 0 20px;
+}
